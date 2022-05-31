@@ -1,0 +1,9 @@
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-title span {
+    color: var(--purple);
+}
