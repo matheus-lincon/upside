@@ -1,0 +1,34 @@
+.tech {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.tech {
+  padding: 2rem;
+}
+
+.tech .tech-image {
+  width: 20%;
+}
+
+.tech .tech-image p {
+  color: #929292;
+  font-weight: 700;
+}
+
+.tech .tech-image img {
+  width: 100%;
+  transition: 0.2s;
+}
+
+.tech .tech-image img:hover {
+  transform: translateY(-8px);
+  transition: 0.2s;
+}
+
+@media only screen and (min-width: 600px) {
+  .tech .tech-image {
+    width: 100px;
+  }
+}

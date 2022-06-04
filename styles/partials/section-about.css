@@ -1,16 +1,14 @@
-#about p{
-    text-align: center;
+#about p {
+  text-align: center;
 }
 
 #about p:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-@media only screen and (min-width:620px) {
-
-    #about p {
-        margin: 0 auto;
-        width: 60%;
-    }
-
+@media only screen and (min-width: 620px) {
+  #about p {
+    margin: 0 auto;
+    width: 60%;
+  }
 }
