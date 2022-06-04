@@ -1,50 +1,49 @@
-@import url("./partials/header.css");
-@import url("./partials/container.css");
-@import url("./partials/section.css");
-@import url("./partials/section-intro.css");
-@import url("./partials/section-team.css");
-@import url("./partials/section-about.css");
-@import url("./partials/footer.css");
+@import url('./partials/header.css');
+@import url('./partials/container.css');
+@import url('./partials/section.css');
+@import url('./partials/section-intro.css');
+@import url('./partials/section-about.css');
+@import url('./partials/footer.css');
 
 :root {
-    --purple: #410092;
-    --white: #f8f8f8;
-    --black: #080808;
+  --purple: #410092;
+  --white: #f8f8f8;
+  --black: #080808;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
-    color: var(--white);
-    background-color: var(--black);
+  font-family: 'Poppins', sans-serif;
+  color: var(--white);
+  background-color: var(--black);
 }
 
 /* others */
 .divider {
-    margin: 50px auto;
-    width: 90%;
-    background-color: var(--purple);
-    height: 2px;
+  margin: 50px auto;
+  width: 90%;
+  background-color: var(--purple);
+  height: 2px;
 }
 
 .alert-box {
-    text-align: center;
-    margin: 40px auto auto auto;
-    
-    background-color: #1e014173;
-    width: 50%;
-    padding: 1rem;
-    border-radius: 10px;
+  text-align: center;
+  margin: 40px auto auto auto;
+
+  background-color: #1e014173;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .image {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #cccccc;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #cccccc;
 }

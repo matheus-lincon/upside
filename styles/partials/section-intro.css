@@ -1,4 +1,23 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
 .intro-text {
-    text-align: center;
-    margin-top: 3.75rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.intro-text h1 {
+  font-size: 2rem;
+}
+
+.intro-text p {
+  font-size: 1rem;
+  color: #929292;
 }
