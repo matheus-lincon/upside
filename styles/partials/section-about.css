@@ -6,6 +6,11 @@
   margin-bottom: 20px;
 }
 
+#about p a {
+  color: var(--purple);
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 620px) {
   #about p {
     margin: 0 auto;
